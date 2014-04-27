@@ -35,10 +35,10 @@ Y_name <- as.data.frame( Y_name )
 
 selected_features_name <- all_features[ selected_features, 2 ]
 names( X_selected ) <- gsub( "\\(|\\)", "", selected_features_name )
-names( Y ) <- "Activities"
+names( Y_name ) <- "Activities"
 names( subject ) <- "Subject"
 
-final_tidy_dataset <- cbind( subject, Y, X_selected )
+final_tidy_dataset <- cbind( subject, Y_name, X_selected )
 write.table( final_tidy_dataset, "final_tidy_dataset.txt" )
 
 # 5
