@@ -19,3 +19,5 @@
 4. Label the dataset
 5. Calculate the average of each variable for each activity and subject
 
+## Variables Description
+## Please view in file "features_info.txt" in the dataset
