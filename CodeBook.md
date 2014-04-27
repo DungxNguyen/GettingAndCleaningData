@@ -20,4 +20,12 @@
 5. Calculate the average of each variable for each activity and subject
 
 ## Variables Description
-## Please view in file "features_info.txt" in the dataset
+### Please view in file "features_info.txt" in the dataset for Original Data Description
+
+## Tranformed Dataset
+### Subject
+      Subject is the identification of each volunteer in the experiment
+### Activities
+      6 activities performed by volunteers in the experiment
+### Variables from col 3 to 68
+      mean values of 66 selected features from task 2(measurements on sum or std) for each subject and activities. Name of each column is the name of the measurement.
