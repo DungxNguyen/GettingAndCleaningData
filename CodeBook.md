@@ -6,7 +6,7 @@
 
 ## Data Transformation
 
-1, Merge Training sets and Testing sets into 1 dataset
+1. Merge Training sets and Testing sets into 1 dataset
   * Read X, y and subject sets (trainning and testing separately)
   * Use rbind() to merge each training and testing pairs into 1 table
 2. Find the measuremnts on mean and std in all features
